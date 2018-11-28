@@ -1,0 +1,30 @@
+V.I. Arnold, Ordinary Differential Equations
+- Silverman's translation
+- Chapter 1, Section 2
+- https://catalog.library.vanderbilt.edu/discovery/fulldisplay?docid=alma991020641319703276&context=L&vid=01VAN_INST:vanui&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,ordinary%20differential%20equations&sortby=rank&offset=0
+
+Littlewood Miscellany, p. 28
+- MIT Press translation
+
+Basic strategy for applying topology:
+-------------------------------------
+1. Problem complicated by degeneracies (unfortunate circumstances that make the problem difficult)
+2. Deform the problem to a generic situation free from degeneracies
+3. This problem has a simple solution
+4. Deform back the solution to obtain a solution to the original problem
+
+Note: we can use the same approach to show that some problems are unsolvable.
+
+ex.
+  P, Q matrices of size n x n
+  PQ != QP in general, but show that they have the same eigenvalues (*)
+sol.
+  Q(PQ)Q^-1 = QP
+  so, PQ, QP are matrices of the same linear transformation, so (*) holds
+comment
+  this argument works only when Q is invertable (Q^-1 exists),
+  i.e. only when det Q != 0
+  But,
+  Q is invertible in most situations, in the sense that
+  if Q is invertible => small perturbations of Q remain invertible
+  if Q is noninvertible => small perturbations of Q become invertibleV.I.

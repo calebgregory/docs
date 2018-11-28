@@ -1,0 +1,94 @@
+I would like to hear from Greg that this is a relatively accurate description of the central nervous system's mechanism for communicating encoded messages. I would like also to know to what degree the following is a metaphor -- it is a description, after all. Of course it is a metaphor to begin with, but -to what degree it is a metaphor-, that is what I wish to know.
+Neurons carry electric signals by exchanging a charge. Specifically, at the connection point of two neurons, there is an exchange of K- and Na+ ions, each from one neuron to the other.
+
+[Watching Nervous System Introduction]
+
+A neuron is composed of several parts. A body - soma -, dendrites which receive a signal (gets stimulated), an axon, which has a Myelin sheath (made out of Schwann cells), between which are Nodes of Renvier, and at the end of this axon are terminals.
+
+A neuron has multiple dendrites. There is a difference in charge in the areas external to and internal to the neuron - positive charge outside, and a negative charge inside. This charge is called "resting potential". If the sum of the stimuli of each of these dendrites surpasses some threshold, its creates what is called "action potential" or signal that travels across the axon and stimulates other cells. These cells may be perhaps other neurons' dendrites, or muscle cells, etc.
+
+What is this signal? How does a neuron actually transmit this information?
+
+What is the actual voltage across the membrances of a neuron?
+
+There are both Na+ and K+ molecules inside and outside the cell. Cells has more positive charge outside their membranes than inside their membranes. There is a potential difference, where if the membrane wasn't there, outside cells would "want to" move in and inside cells would "want to" move out.
+
+Outside ==More Positive
+-- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- --
+Inside    Less Positive
+
+This is an electrical potential gradient. If x and y are two positively charged things, they are repelled by each other and will "wave to" move away from each other. How does this happen? Left to their own devices, these things will disperse from each other. To produce this state, energy must be put into the systemwhere we have more positive charge on the outside than we do on the inside. This is performed by "Sodium-Potassium Pumps."
+
+                K+ K+ K+ K+
+Outside   Na+ Na+
+---------,,,,---------
+        /,'',\
+       /,'  ',\
+------/,'    ',\------
+Inside    Na+ Na+ Na+ Na+ Na+
+              K+ K+
+
+The proteins that form these "pumps" that have places where sodium can bind to. If these just bound and there was no energy going into the system, the sodium molecules might just stay here once bonded. It order to pump this out, it uses the energy from ATP (adenosine triphosphate). Specifically, it uses ATPase - it breaks off a phosphate from the ATP (by virtue of its shape, it's able to pluck it off).
+
+Here is a step by step description of the process:
+
+1. 3 Na+ from inside cell bond to "pump"
+
+                  K+ K+ K+ K+
+  Outside   Na+ Na+
+  ---------,,,,---------
+          /Na+,\
+         /Na+ ',\
+  ------/Na+   ',\------
+  Inside    Na+ Na+
+                K+ K+
+2. ATP -> ADP  + Pi (phosphate) + Energy to change "pump" shape
+
+                  K+ K+ K+ K+
+  Outside   Na+ Na+
+  --------\Na+   ,'/------
+           \Na+ ,'/
+            \Na+'/
+  -----------''''---------
+  Inside    Na+ Na+
+                K+ K+
+
+  This _requires_ energy because it goes _against the natural gradient_ - taking a positive charge and taking it to an environment where it is more positive. And it goes against the sodium gradient - taking Na+ and putting it in an environment where there is more sodium.
+
+3. 3 Na+ released outside the cell
+
+The positve ions, in particular, the potassium, bond to the open pump shape
+
+4. 2 K+ bond to the "activated pump" -> pump changes shape to original
+
+                  K+ K+
+  Outside   Na+ Na+ Na+ Na+ Na+
+  --------\'',  K+'/------
+           \',  K+/
+            \', '/
+  -----------''''---------
+  Inside    Na+ Na+
+                K+ K+
+5. 2 K+ released inside the cell
+
+              K+ K+
+Outside   Na+ Na+ Na+ Na+ Na+  *,
+---------,,,,-------------------|
+        /,'',\                  |_ resting voltage/potential difference, -70 mV
+       /,'  ',\                 |
+------/,'     ,\----------------|
+Inside    Na+ Na+              *'
+              K+ K+ K+ K+
+
+We end up with more sodium on the outside and more potassium on the inside.
+
+Everytime we use an ATP, we pump _out_ 3 Na+ and _in_ 2 K+. Each time, a net +1 charge is added to the outside. This is what creates the potential difference. If you took a volt meter and took the differences between two points x inside the cell and y outside, the differences in voltage between these two points equals -70 mV. This is generally considered the resting potential difference across the membrane of a neuron.
+
+Why does the charge stabilize at -70 mV?
+
+In addition to these "pumps", a cell also has channels that in their open position allow Na+ passage through the membranes, and it has channels that allow K+ passage through the membrane when open. These channels are leaky, and if the concentration of, say, Na+ in the outside becomes too high - meaning when the potential difference starts to reach a threshold of -70 mV, a few molecules will start to leak down (or will be shoved through) a channel into the cell. This allows the charge to stay at a stable voltage potential.
+
+CORRECTION: Penn State has a computer program that simulates the ion fluxes across a generic cell, including that due to the Na/K pump and that which arises from the resting permeabilities of the membrane to Na+, K+, Cl-, etc. One option the program gives is to change the pump stoichiometry - that is, ratio of molecules - from 3/2 to 2/2. As a result of this maneuver, Vm (voltage potential of the membrane) changes from normal value of ~-80mV to -78mV. So, while it is true that the normal stoichiometry of the pump does have a slight negative influence on Vm, the imbalance in the the pump stoichiometry is not the main reason for the large negative Vm of the cell. Rather, _the main reason is the concentration gradients established by the pump in combination with the fact that the resting cell membrane is highly permeable to K and only slightly permeable to Na_.
+
+[ Next up, what happens when a neuron is actually stimulated ... ]
